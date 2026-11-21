@@ -1,0 +1,16 @@
+{
+  "streamers": [
+    { "uid": 0, "name": "" }
+  ],
+  "qq": { "api": "http://127.0.0.1:3000", "token": "", "groups": [] },
+  "discord": { "webhook": "", "everyone": false },
+  "push": { "live": true, "liveEnd": true, "liveChange": true, "videos": true, "dynamics": true, "reserve": true },
+  "atAll": { "live": true, "video": false, "dynamic": false, "reserve": false, "reminder": false },
+  "intervals": { "liveSec": 60, "feedSec": 300, "reserveSec": 600 },
+  "reserveRemindMinutes": 10,
+  "timeZone": "Asia/Shanghai",
+  "timeLabel": "北京时间",
+  "withImages": true,
+  "dailyLimit": 30,
+  "maxAgeHours": 24
+}

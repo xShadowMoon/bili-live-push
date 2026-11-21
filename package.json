@@ -1,0 +1,11 @@
+{
+  "name": "bili-live-push",
+  "version": "1.0.0",
+  "description": "Push Bilibili streamers' go-live, stream end, title changes, new videos, posts and reservations to QQ groups (OneBot/NapCat) and Discord.",
+  "type": "module",
+  "main": "index.mjs",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node index.mjs", "dry": "node index.mjs --dry", "login": "node index.mjs login", "test": "node --test tests/*.test.mjs" },
+  "optionalDependencies": { "qrcode": "^1.5.4" },
+  "license": "MIT"
+}
